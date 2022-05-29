@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+main{
+    display: flex;
+}
+
+.input-text{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.input-text-area{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    background-image: url(img/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+#logo{
+    position: relative;
+    top: 10px;
+    bottom: 0%;
+}
+
+button{
+    position: relative;
+align-items: flex-start;
+padding-bottom: 2px;
+gap: 8px;
+width: 328px;
+height: 67px;
+border-radius: 24px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#encriptar{
+background: #0A3871;
+color: #FFFFFF;
+}
+
+#desencriptar{
+background: #D8DFE8;
+border: 1px solid #0A3871;
+color: #0A3871;
+}
+
+h6{
+    width: 205px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 690px;
+}
+
+
